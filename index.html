@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>My Blog</title>
+  </head>
+  <body>
+    <!--шапка сайта-->
+    <header>
+      <h1 class="logo">Adastra Blog</h1>
+      <div class="header-link">
+        <a href="/form_create_article.html">Сreate an article</a>
+      </div>
+    </header>
+
+    <!--основной контент-->
+    <main>
+      <h1>общий список постов</h1>
+      <form id="edit-form" class="edit-form">
+        <label for="title">Заголовок:</label>
+        <input
+          type="text"
+          id="title"
+          name="title"
+          placeholder="Введите заголовок"
+          required
+        />
+
+        <label for="content">Текст статьи:</label>
+        <textarea
+          id="content"
+          name="content"
+          placeholder="Введите текст статьи"
+          rows="8"
+          required
+        ></textarea>
+
+        <button id="save-article" type="submit">сохранить статью</button>
+        <button id="close-editForm" type="submit">Закрыть</button>
+      </form>
+    </main>
+
+    <script src="/searchlocalStorage.js"></script>
+    <script src="/scriptForView.js"></script>
+  </body>
+</html>
