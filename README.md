@@ -17,19 +17,13 @@
 
 структура проекта 
 /
-│
-├── index.html                # Главная страница. Отображение всех статей
-├── form_create_article.html  # Страница создания статьи
-│
+├── index.html # Главная страница. Отображение всех статей
+├── form_create_article.html # Страница создания статьи
 ├── css/
-│   └── style.css             # Основные стили
-│
+│ └── style.css # Основные стили
 ├── js/
-│   ├── script.js             # сохранение статей в LocalStorage
-│   └── searchLocalStorage.js # поиск/получение данных из LocalStorage,редоктирование и просмотр статьи
-│ 
-│
-└── README.md    
+│ ├── script.js # Сохранение статей в LocalStorage
+│ └── searchLocalStorage.js # Поиск/получение данных из LocalStorage, редактирование и просмотр статьи   
 
 Запуск проекта 
 
